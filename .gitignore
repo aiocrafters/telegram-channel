@@ -1,0 +1,58 @@
+# ---------------------------
+# Python cache / compiled
+# ---------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---------------------------
+# Virtual environments
+# ---------------------------
+venv/
+.env/
+env/
+ENV/
+
+# ---------------------------
+# Environment variables
+# ---------------------------
+.env
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+
+# ---------------------------
+# OS files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# IDE / Editor
+# ---------------------------
+.vscode/
+.idea/
+
+# ---------------------------
+# Testing / coverage
+# ---------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ---------------------------
+# Build / dist
+# ---------------------------
+build/
+dist/
+*.egg-info/
+
+# ---------------------------
+# Local data files (optional)
+# ---------------------------
+# If you DON'T want GitHub Actions to track seen news,
+# uncomment below line:
+
+# seen_news.json
