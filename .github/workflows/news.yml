@@ -2,7 +2,7 @@ name: Google News to Telegram
 
 on:
   schedule:
-    - cron: "0 * * * *"  # Every hour
+    - cron: "30 1 * * *"  # Every day at 7:00 AM IST (1:30 AM UTC)
   workflow_dispatch:
 
 permissions:
